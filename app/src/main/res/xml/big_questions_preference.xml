@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Big Questions"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/colors_entries"
+            android:entryValues="@array/color_values"
+            android:key="bq_color"
+            android:title="Color"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="bq_prep"
+            android:title="Preparation Time"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="bq_qs"
+            android:title="Question Segments"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="5"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="bq_cn"
+            android:title="Constructives"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="bq_rb"
+            android:title="Rebuttals"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="bq_cd"
+            android:title="Consolidations"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="bq_rt"
+            android:title="Rationale"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

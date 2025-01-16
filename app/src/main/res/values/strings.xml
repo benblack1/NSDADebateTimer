@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Debate Timer</string>
+    <string name="action_settings">Main Menu</string>
+    <string name="section_format">1AC: %1$d</string>
+    <string name="settings">Settings</string>
+
+    <string name="title_activity_timer">TimerActivity</string>
+    <string name="title_activity_main_pf">MainActivityPF</string>
+
+    <!--LD Names-->
+    <string name="ac">AC</string>
+    <string name="first_ar">1AR</string>
+    <string name="cx">CX</string>
+    <string name="nc">NC</string>
+    <string name="nr">NR</string>
+    <string name="second_ar">2AR</string>
+    <string name="aff_prep">Aff Prep</string>
+    <string name="neg_prep">Neg Prep</string>
+
+    <!--PF Names-->
+    <string name="first_c">1C</string>
+    <string name="second_c">2C</string>
+    <string name="first_r">1R</string>
+    <string name="second_r">2R</string>
+    <string name="cf">CF</string>
+    <string name="first_s">1S</string>
+    <string name="second_s">2S</string>
+    <string name="grand_cf">GCF</string>
+    <string name="first_ff">1FF</string>
+    <string name="second_ff">2FF</string>
+    <string name="first_prep">First Prep</string>
+    <string name="second_prep">Second Prep</string>
+
+    <!--CX Names-->
+    <string name="first_ac">1AC</string>
+    <string name="second_ac">2AC</string>
+    <string name="second_nc">2NC</string>
+    <string name="first_nr">1NR</string>
+    <string name="second_nr">2NR</string>
+    <string name="first_nc">1NC</string>
+
+    <!--BQ Names-->
+    <string name="qs">QS</string>
+    <string name="ar">AR</string>
+
+    <!--WS-->
+    <string name="first_pro">1P</string>
+    <string name="first_opp">1O</string>
+    <string name="second_pro">2P</string>
+    <string name="second_opp">2O</string>
+    <string name="third_pro">3P</string>
+    <string name="third_opp">3O</string>
+    <string name="opp_reply">OR</string>
+    <string name="pro_reply">PR</string>
+
+    <!--Congress-->
+    <string name="authorship">Author</string>
+    <string name="con">Con</string>
+    <string name="pro">Pro</string>
+
+    <!--Times-->
+    <string name="one_minute">1:00</string>
+    <string name="two_minutes">2:00</string>
+    <string name="three_minutes">3:00</string>
+    <string name="four_minutes">4:00</string>
+    <string name="five_minutes">5:00</string>
+    <string name="six_minutes">6:00</string>
+    <string name="seven_minutes">7:00</string>
+    <string name="eight_minutes">8:00</string>
+
+    <string name="reset_prep">Reset Prep</string>
+
+    <string name="title_activity_main_cx">MainActivityCX</string>
+    <string name="title_activity_main_bq">MainActivityBQ</string>
+    <string name="title_activity_timer_bq">TimerActivityBQ</string>
+    <string name="title_activity_main_ws">MainActivityWS</string>
+    <string name="title_activity_timer_ws">TimerActivityWS</string>
+    <string name="title_activity_main_congress">MainActivityCongress</string>
+    <string name="title_activity_timer_congress">TimerActivityCongress</string>
+
+    <!--Launch Names-->
+    <string name="ld">Lincoln Douglas</string>
+    <string name="LD">LD</string>
+    <string name="pf">Public Forum</string>
+    <string name="PF">PF</string>
+    <string name="policy">Policy</string>
+    <string name="POLICY">CX</string>
+    <string name="bq">Big Questions</string>
+    <string name="ws">World Schools</string>
+    <string name="congress">Congress</string>
+
+    <string name="debate_timer">Debate Timer</string>
+
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+</resources>

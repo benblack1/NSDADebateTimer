@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Congress"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:defaultValue="6"
+            android:entries="@array/colors_entries"
+            android:entryValues="@array/color_values"
+            android:key="cong_color"
+            android:title="Color"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="cong_auth"
+            android:title="Authorship Speech"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="cong_sp"
+            android:title="Pro/Con Speeches"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="cong_1cx"
+            android:title="First Cross-Examinations"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="cong_2cx"
+            android:title="Subsequent Cross-Examinations"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

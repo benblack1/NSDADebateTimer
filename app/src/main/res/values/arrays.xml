@@ -1,0 +1,61 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="time_entries">
+        <item>One Minute</item>
+        <item>Two Minutes</item>
+        <item>Three Minutes</item>
+        <item>Four Minutes</item>
+        <item>Five Minutes</item>
+        <item>Six Minutes</item>
+        <item>Seven Minutes</item>
+        <item>Eight Minutes</item>
+        <item>Nine Minutes</item>
+        <item>Ten Minutes</item>
+        <item>Eleven Minutes</item>
+        <item>Twelve Minutes</item>
+    </string-array>
+
+    <string-array name="times_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="colors_entries">
+        <item>Blue</item>
+        <item>Orange</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Purple</item>
+        <item>Light Blue</item>
+    </string-array>
+
+    <string-array name="color_values">
+        <item>#1565C0</item>
+        <item>#EF6C00</item>
+        <item>#C62828</item>
+        <item>#2E7D32</item>
+        <item>#6A1B9A</item>
+        <item>#0277BD</item>
+    </string-array>
+
+</resources>

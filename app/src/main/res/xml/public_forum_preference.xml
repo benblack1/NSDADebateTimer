@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Public Forum"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/colors_entries"
+            android:entryValues="@array/color_values"
+            android:key="pf_color"
+            android:title="Color"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="pf_prep"
+            android:title="Preparation Time"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="pf_cf"
+            android:title="Crossfires"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="pf_gcf"
+            android:title="Grand Crossfire"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="pf_c"
+            android:title="Constructives"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="pf_r"
+            android:title="Rebuttals"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="pf_s"
+            android:title="Summaries"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="pf_ff"
+            android:title="Final Focuses"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

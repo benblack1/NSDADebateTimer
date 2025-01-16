@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="World Schools" app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:defaultValue="5"
+            android:entries="@array/colors_entries"
+            android:entryValues="@array/color_values"
+            android:key="ws_color"
+            android:title="Color"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            android:defaultValue="8"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="ws_ts"
+            android:title="Team Speeches"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="ws_rb"
+            android:title="Rebuttals"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="Lincoln Douglas"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/colors_entries"
+            android:entryValues="@array/color_values"
+            android:key="ld_color"
+            android:title="Color"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="ld_prep"
+            android:title="Preparation Time"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="ld_cx"
+            android:title="Cross-Examinations"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="6"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="ld_ac"
+            android:title="Affirmative Constructive"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="7"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="ld_nc"
+            android:title="Negative Constructive"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="ld_1ar"
+            android:title="First Affirmative Rebuttal"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="6"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="ld_nr"
+            android:title="Negative Rebuttal"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/times_values"
+            android:key="ld_2ar"
+            android:title="Second Affirmative Rebuttal"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

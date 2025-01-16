@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="Lincoln Douglas"
+        android:enabled="true"
+        android:icon="@drawable/launchscreenld"
+        android:shortcutShortLabel="@string/LD"
+        android:shortcutLongLabel="@string/ld">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.blackinc.debatetimer.lincolndouglas.MainActivityLD"
+            android:targetPackage="com.blackinc.debatetimer" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+    <shortcut
+        android:shortcutId="Public Forum"
+        android:enabled="true"
+        android:icon="@drawable/launchscreenpf"
+        android:shortcutShortLabel="@string/PF"
+        android:shortcutLongLabel="@string/pf">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.blackinc.debatetimer.publicforum.MainActivityPF"
+            android:targetPackage="com.blackinc.debatetimer" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="Policy"
+        android:enabled="true"
+        android:icon="@drawable/launchscreencx"
+        android:shortcutShortLabel="@string/POLICY"
+        android:shortcutLongLabel="@string/policy">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.blackinc.debatetimer.policy.MainActivityCX"
+            android:targetPackage="com.blackinc.debatetimer" />
+    </shortcut>
+</shortcuts>
+<!--<shortcuts xmlns:android="http://schemas.android.com/apk/lib/debatetimer">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="opened_tasks"
+        android:shortcutLongLabel="@string/ld"
+        android:shortcutShortLabel="@string/LD">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.blackinc.debatetimer.lincolndouglas.MainActivityLD"
+            android:targetPackage="com.blackinc.debatetimer" />
+    </shortcut>
+</shortcuts>-->

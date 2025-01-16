@@ -1,0 +1,43 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <Preference
+        android:id="@+id/ld"
+        app:fragment="com.blackinc.debatetimer.settings.LincolnDouglasSettings"
+        app:title="Lincoln Douglas"
+        app:iconSpaceReserved="false" />
+
+    <Preference
+        android:id="@+id/pf"
+        android:dividerPadding="0dp"
+        app:fragment="com.blackinc.debatetimer.settings.PublicForumSettings"
+        app:title="Public Forum"
+        app:iconSpaceReserved="false" />
+
+    <Preference
+        android:id="@+id/cx"
+        android:dividerPadding="0dp"
+        app:fragment="com.blackinc.debatetimer.settings.PolicySettings"
+        app:title="Policy"
+        app:iconSpaceReserved="false" />
+
+    <Preference
+        android:id="@+id/bq"
+        app:fragment="com.blackinc.debatetimer.settings.BigQuestionsSettings"
+        app:title="Big Questions"
+        app:iconSpaceReserved="false" />
+
+    <Preference
+        android:id="@+id/ws"
+        app:fragment="com.blackinc.debatetimer.settings.WorldSchoolsSettings"
+        app:title="World Schools"
+        app:iconSpaceReserved="false" />
+
+    <Preference
+        android:id="@+id/cong"
+        app:fragment="com.blackinc.debatetimer.settings.CongressSettings"
+        app:title="Congress"
+        app:iconSpaceReserved="false" />
+
+</PreferenceScreen>

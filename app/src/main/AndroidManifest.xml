@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.blackinc.debatetimer">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".settings.Settings"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".LaunchScreen"
+            android:theme="@style/dark">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blackinc.debatetimer.LaunchScreen" />
+        </activity>
+        <activity
+            android:name=".lincolndouglas.MainActivityLD"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".lincolndouglas.TimerActivityLD"
+            android:configChanges="keyboardHidden|screenSize"
+            android:label="@string/title_activity_timer"
+            android:theme="@style/Theme.Transparent" />
+        <activity android:name=".LaunchScreen" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.Transparent"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+        <activity
+            android:name=".publicforum.MainActivityPF"
+            android:label="@string/title_activity_main_pf"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".publicforum.TimerActivityPF"
+            android:configChanges="keyboardHidden|screenSize"
+            android:label="TimerActivityPF"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".policy.MainActivityCX"
+            android:label="@string/title_activity_main_cx"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".policy.TimerActivityCX"
+            android:configChanges="keyboardHidden|screenSize"
+            android:label="@string/title_activity_main_cx"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".bigquestions.MainActivityBQ"
+            android:label="@string/title_activity_timer_bq"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".bigquestions.TimerActivityBQ"
+            android:configChanges="keyboardHidden|screenSize"
+            android:label="@string/title_activity_timer_bq"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".worldschools.MainActivityWS"
+            android:label="@string/title_activity_main_ws"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".worldschools.TimerActivityWS"
+            android:configChanges="keyboardHidden|screenSize"
+            android:label="@string/title_activity_timer_ws"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".congress.MainActivityCongress"
+            android:label="@string/title_activity_main_congress"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".congress.TimerActivityCongress"
+            android:configChanges="keyboardHidden|screenSize"
+            android:label="@string/title_activity_timer_congress"
+            android:theme="@style/Theme.Transparent" />
+    </application>
+
+</manifest>
